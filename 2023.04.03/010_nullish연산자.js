@@ -28,8 +28,5 @@ let height3 = '';
 console.log(height3 || 'hello')
 console.log(height3 ?? 'world')
 
-// || : 0, null, undefined
-// ?? : null, undefined
-
-// falsy하다 : 0, null, undefined, "", NaN
-// nullish하다 : null, undefined
+// ||는 왼쪽 피연산자가 falsy한 값( 0, null, undefined, "", NaN)일 경우에 오른쪽 피연산자를 반환한다.
+// ??는 왼쪽 피연산자가 nullish한 값(null, undefined)일 경우에 오른쪽 피연산자를 반환한다.
