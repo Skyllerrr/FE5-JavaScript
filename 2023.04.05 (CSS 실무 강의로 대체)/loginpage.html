@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Join</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+
+<body>
+
+    <!-- 입력해 주세요 -->
+    <section class="modal-login hidden">
+        <h2 class="txt-hide">로그인 또는 회원가입</h2>
+        <header class="header-modal clearfix">
+            <p aria-hidden="true">로그인 또는 회원가입</p>
+            <button class="icon-close float--right" aria-label="close"></button>
+        </header>
+        <section class="login-menu">
+            <form id="login" action="submit">
+                <p class="loginform-txt">
+                    위니브에서 여러분의 궁금증을 해결하세요! :)
+                </p>
+                <input type="text" placeholder="아이디" class="input-box input-id" />
+                <p class="id-input">아이디를 입력해 주세요</p>
+                <input type="text" placeholder="비밀번호" class="input-box input-pw" />
+                <div class="login-keep__wrapper">
+
+                    <label for="login-keep" class="login-keep-txt">로그인 상태 유지</label>
+                </div>
+                <button id="btn-login" class="item-box btn-login">로그인</button>
+            </form>
+            <div class="user-menu">
+                <a href="#" class="join">회원가입</a>
+                <a href="#" class="find">아이디/비밀번호 찾기</a>
+            </div>
+            <span class="hr">또는</span>
+            <div class="sns-login">
+                <ul class="sns-lists">
+                    <li>
+                        <a href="#" class="item-box google">구글 계정으로 로그인</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-box facebook">페이스북 계정으로 로그인</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-box naver">네이버 계정으로 로그인</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-box kakao">카카오톡 계정으로 로그인</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- 입력 후  일치 오류 -->
+    <section class="modal-login hidden">
+        <h2 class="txt-hide">로그인 또는 회원가입</h2>
+        <header class="header-modal clearfix">
+            <p aria-hidden="true">로그인 또는 회원가입</p>
+            <button class="icon-close float--right" aria-label="close"></button>
+        </header>
+        <section class="login-menu">
+            <form id="login" action="submit">
+                <p class="loginform-txt">
+                    위니브에서 여러분의 궁금증을 해결하세요! :)
+                </p>
+                <input type="text" placeholder="아이디" class="input-box input-id1" />
+                <input type="text" placeholder="비밀번호" class="input-box input-pw" />
+                <p class="not-correct">아이디 혹은 비밀번호가 일치하지 않습니다.</p>
+                <div class="login-keep__wrapper">
+
+                    <label for="login-keep" class="login-keep-txt">로그인 상태 유지</label>
+                </div>
+                <button id="btn-login" class="item-box btn-login">로그인</button>
+            </form>
+            <div class="user-menu">
+                <a href="#" class="join">회원가입</a>
+                <a href="#" class="find">아이디/비밀번호 찾기</a>
+            </div>
+            <span class="hr">또는</span>
+            <div class="sns-login">
+                <ul class="sns-lists">
+                    <li>
+                        <a href="#" class="item-box google">구글 계정으로 로그인</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-box facebook">페이스북 계정으로 로그인</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-box naver">네이버 계정으로 로그인</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-box kakao">카카오톡 계정으로 로그인</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>
