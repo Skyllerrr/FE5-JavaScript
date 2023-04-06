@@ -1,5 +1,5 @@
 // https://ko.javascript.info/nullish-coalescing-operator
-// 스펙에 추가된 지 얼마 안 된 문법입니다. 구식 브라우저는 폴리필(최신 문법을 구식 브라우저에서도 사용할 수 있도록 해주는 것)이 필요합니다.
+// 스펙에 추가된 지 얼마 안 된 문법입니다. 구식 브라우저는 폴리필이(최신 문법을 구식 부라우저에서도 사용할 수 있도록 해주는 것) 필요합니다.
 
 let firstName = null;
 let lastName = null;
@@ -28,5 +28,9 @@ let height3 = '';
 console.log(height3 || 'hello')
 console.log(height3 ?? 'world')
 
-// ||는 왼쪽 피연산자가 falsy한 값( 0, null, undefined, "", NaN)일 경우에 오른쪽 피연산자를 반환한다.
-// ??는 왼쪽 피연산자가 nullish한 값(null, undefined)일 경우에 오른쪽 피연산자를 반환한다.
+// 제가 지금 주석으로 다는 내용은 지금 여기서는 모르셔도 괜찮습니다.
+// || : 0, null, undefined, false, NaN, '', etc...
+// ?? : null, undefined
+
+// falsy하다 : 0, null, undefined, false, NaN, '', etc...
+// nullish하다 : null, undefined
