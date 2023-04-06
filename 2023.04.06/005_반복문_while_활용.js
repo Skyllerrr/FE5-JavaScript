@@ -10,6 +10,28 @@ while (x < 10) {
     console.log('end')
 }
 
+/////
+// why? 10까지 출력이 되는가?
+// 일반 JS에서는 출력되지 않습니다.
+// 콘솔에서만 출력됩니다.
+let x1 = 0
+while (x1 < 10) {
+    console.log(x1)
+    x1 += 1
+}
+
+let x2 = 0
+while (x2 < 10) {
+    console.log(x2)
+    x2 += 1
+    console.log('')
+}
+
+let x3 = 1
+x3 += 1
+x3 += 1
+x3 += 1 // 여러번 해보세요. x값이 출력되는데 개발자 편의를 위해 제공하는 기능입니다. 
+/////
 
 // do ~ while문
 
@@ -63,3 +85,28 @@ console.log(result)
 // s[1] + result => 'e' + '' => 'eh'
 // s[2] + result => 'l' + '' => 'leh' ...
 
+
+
+// 암기코드 3
+// 팩토리얼
+// 5! = 5 * 4 * 3 * 2 * 1
+let s1 = 1;
+for (let i = 1; i < 6; i++) {
+    s1 *= i
+}
+console.log(s1)
+
+// s1 = s1  *  i // 1 * 1
+// s1 = 1  *  2
+// s1 = 2  *  3
+// s1 = 6  *  4
+// s1 = 24 *  5
+
+let s2 = 1;
+i = 1;
+while (i < 6) {
+    s2 *= i
+    i += 1
+}
+
+console.log(s2)
