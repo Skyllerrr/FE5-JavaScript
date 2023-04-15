@@ -88,3 +88,4 @@ let hour = today.getHours();
 let minute = today.getMinutes();
 let second = today.getSeconds();
 const ampm = hour >= 12 ? 'PM' : 'AM';
+
