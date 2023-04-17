@@ -96,3 +96,18 @@ let hour = today.getHours();
 let minute = today.getMinutes();
 let second = today.getSeconds();
 const ampm = hour >= 12 ? 'PM' : 'AM';
+
+
+// 04.13일 date + 추가 코드
+// 날짜의 차를 구하는 코드
+// getTime은 1970 년 1 월 1 일 00:00:00 UTC와 주어진 날짜 사이의 경과 시간 (밀리 초)을 나타내는 숫자
+function getDateDiff(d1, d2) {
+    const date1 = new Date(d1);
+    const date2 = new Date(d2);
+    const diffDate = Math.abs(date1.getTime() - date2.getTime());
+    // 일 == 밀리세컨 * 초 * 분 * 시
+    return Math.abs(diffDate / (1000 * 60 * 60 * 24));
+}
+
+getDateDiff("2023-02-27", "2023-06-30");
+getDateDiff("2023-04-17", "2023-06-30");
