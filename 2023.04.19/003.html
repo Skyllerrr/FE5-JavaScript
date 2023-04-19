@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>객체지향 프로그래밍_프로토타입</title>
+</head>
+<body>
+    
+    <script>
+        function sanghun() {
+            this.age = 27;
+        }
+
+        sanghun.prototype.name = "상헌";
+
+        const sanghun1 = new sanghun();
+        const sanghun2 = new sanghun();
+        const sanghun3 = new sanghun();
+    </script>
+
+</body>
+</html>

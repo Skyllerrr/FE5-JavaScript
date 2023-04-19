@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>객체지향 프로그래밍 간단한 실습2</title>
+</head>
+
+<body>
+
+    <script>
+        function FoodPicker(foodNames) {
+            this.name = foodNames;
+            this.sayMenu = function () {
+                console.log(`삐리리리리 오늘의 메뉴는 ${this.name[Math.floor(Math.random() * this.name.length)]} 입니다.`);
+            }
+        }
+
+        const food1 = new FoodPicker(['짜장면', '청국장', '김치찌개']);
+        const food2 = new FoodPicker(['짜장면', '청국장', '김치찌개']);
+        const food3 = new FoodPicker(['짜장면', '청국장', '김치찌개']);
+
+    </script>
+
+</body>
+
+</html>
