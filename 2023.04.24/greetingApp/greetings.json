@@ -1,0 +1,12 @@
+{
+    "greetings" : [
+        {
+            "userName" : "sanghun",
+            "greetings" : "반갑다 반가워"
+        },
+        {
+            "userName" : "sanghun1",
+            "greetings" : "반갑습니다"
+        }
+    ]
+}
