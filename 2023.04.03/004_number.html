@@ -56,6 +56,7 @@
         // 권장 (* 별표 = 중요도, 나머지는 기억 X)
         // 텍스트가 숫자로 시작하지 않을 때 NaN
         // 텍스트가 숫자로 시작했을 경우 숫자 까지만 변환 가능
+        // 텍스트가 영어로 시작했을 경우 NaN
         console.log(parseInt(" ")) // NaN **
         console.log(parseInt("")) // NaN **
         console.log(parseInt("hello")) // NaN
@@ -92,7 +93,7 @@
         Math.min(...[1, 2, 3, 4, 5]) // '...' 전개
 
         let values = [1, 2, 3, 4, 5]
-        let values2 = [6, 7, 8, 11, 10]
+        let values2 = [6, 7, 8, 9, 10, 11]
         Math.max(...values)
         Math.max(...values, ...values2)
 

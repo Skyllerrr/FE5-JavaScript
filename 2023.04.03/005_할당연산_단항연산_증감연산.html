@@ -10,23 +10,24 @@
     
     <script>
         // 할당연산
-        let x = 10;
+        let x = 10; 
         x = x + 10;
         x += 10;
-        
+        // 결과 : 30
+
         // 단항연산
-        console.log(-(2))
-        console.log(-(-2))
-        console.log(+(-2))
-        console.log(+(+2))
-        console.log(+(+'2'))
+        console.log(-(2)) // -2
+        console.log(-(-2)) // 2
+        console.log(+(-2)) // -2
+        console.log(+(+2)) // 2
+        console.log(+(+'2')) // 2
 
         // 증감연산
         let num = 3;
-        ++num // 선증가 후할당
-        --num
-        num++ // 선할당 후증가
-        num--
+        ++num // 선증가 후할당 // 4
+        --num                 // 2
+        num++ // 선할당 후증가 // 3
+        num--                 // 3
 
         //실무에서는 이것을 구분하는 것이 큰 의미가 없습니다.
         for (let i = 0; i < 10; i++) {
