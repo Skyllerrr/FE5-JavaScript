@@ -2,7 +2,6 @@
 // http://test.api.weniv.co.kr/mall 코드는 백엔드 개발자가 주는겁니다.
 // 백엔드 개발자 : 'http://test.api.weniv.co.kr/mall에서 json형식으로 쇼핑몰 데이터를 던지고 있으니 이걸 받아서 쇼핑몰 UI를 만들어주세요!'
 
-
 // step1
 fetch('http://test.api.weniv.co.kr/mall')
     .then(data => data.json())
