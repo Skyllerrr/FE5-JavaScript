@@ -24,8 +24,8 @@ arr.length = 10
 arr[0] = 100
 
 // 프로퍼티를 추가하는 것도 가능합니다.
-arr['leehojun'] = 100
-arr.hojun = 1000
+arr['hansanghun'] = 100
+arr.sanghun = 1000
 
 // 배열의 특징
 // let arr = [];
