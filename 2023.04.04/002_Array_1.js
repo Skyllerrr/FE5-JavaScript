@@ -394,9 +394,7 @@ const tip12 = [{
     }
 ]
 
-
 // askup
-
 const ages1 = tip12.map((item) => item.age);
 const ages2 = tip12.map((item) => {
     return item.age
