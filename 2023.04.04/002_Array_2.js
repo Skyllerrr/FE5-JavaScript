@@ -22,7 +22,7 @@ function solution(n) {
 
 
 const arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-arr2.filter(function(el) {
+arr3.filter(function(el) {
     return el % 2 !== 0
 })
 

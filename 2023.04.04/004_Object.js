@@ -1,4 +1,4 @@
-const human1 = {
+const human = {
     name: "sanghun",
     age: 26,
     from: 'korea',
