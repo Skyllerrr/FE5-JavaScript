@@ -46,7 +46,6 @@ console.log(one(7, 3))
 // 화살표 함수
 const two2 = (a, b) => (a + b) ** 2
 console.log(two2(7, 3))
-console.log(two2(7, 3))
 
 // 이름 없이 선언하는 함수
 // 함수 표현식
@@ -54,8 +53,6 @@ const three3 = function (a, b) { // 1
     let z = a + b // 2
     return z ** 2 // 3
 }
-
-console.log(three3(7, 3))
 console.log(three3(7, 3))
 
 // 콜백함수
@@ -64,7 +61,6 @@ function four(a, b, c) {
     let z = c(a, b) + c(a, b)
     return z * 2
 }
-
 four(7, 3, one)
 
 // 아래와 같이 했을 경우에는 함수의 순수성, 순수함수의 장점을 살릴 수 없습니다.
@@ -175,7 +171,7 @@ function 함수1(a = 10, b = 20, c = 30) {
 function runPython(user, time, code, lv) {
 
 }
-runPython('leehojun', 100, 'function...', 3)
+runPython('hansanghun', 100, 'function...', 3)
 
 
 function runPython({
@@ -188,7 +184,7 @@ function runPython({
 }
 
 runPython({
-    user: 'leehojun',
+    user: 'hansanghun',
     time: 100,
     code: 'function...',
     lv: 3
