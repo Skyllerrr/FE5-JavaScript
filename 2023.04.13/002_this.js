@@ -38,9 +38,8 @@ let myObj = {
 let test = myObj.func1;
 test()
 
-
 ////////////////////
-// this가 어려운 이유는 this를 포함하고 있는 객체가 있는 위치에 따라 this의 의미가 달라지기 때문입니다.
+// this가 어려운 이유는 this를 포함하고 있는 객체의 위치에 따라 this의 의미가 달라지기 때문입니다.
 // bind를 포함한 예외사항이 있습니다.
 
 function sayName() {
