@@ -187,7 +187,6 @@ jombi2.damaged[1]() // Knife
 
 ///////
 
-
 let 호텔 = [{
     '이름': '하나호텔',
     '위치': '제주도 제주시 001',
@@ -254,7 +253,6 @@ var a = {
 }
 
 a.b.c.say()
-
 
 function a() {
     console.log(this)
