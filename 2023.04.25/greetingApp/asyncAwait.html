@@ -18,7 +18,7 @@
             // 유저가 등록되었는지 확인
             async searchUser(userName, password) {
 
-                // await : 프로미스 객체가 반환될때 까지 다음 코드의 동작을 중지하고, 프라미스 객체의 fulfilled 값을 반환합니다.
+                // await : 프로미스 객체가 반환될때 까지 다음 코드의 동작을 중지하고, 프로미스 객체의 fulfilled 값을 반환합니다.
                 // return await new Promise((resolve) => {
                 const response = await fetch('users.json');
 
