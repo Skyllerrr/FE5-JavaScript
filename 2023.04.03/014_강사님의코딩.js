@@ -61,6 +61,7 @@ fetch('http://test.api.weniv.co.kr/mall')
 
             productName.textContent = item.productName
             productPrice.textContent = item.price
+            productCard.appendChild(productImg)
             productCard.appendChild(productName)
             productCard.appendChild(productPrice)
 
@@ -78,15 +79,15 @@ fetch('http://test.api.weniv.co.kr/mall')
         data.forEach(item => {
             const productCard = document.createElement('article')
             
-            const productimg = document.createElement('img')
+            const productImg = document.createElement('img')
             const productName = document.createElement('h2')
             const productPrice = document.createElement('p')
 
             productName.textContent = item.productName
             productPrice.textContent = item.price
-            productimg.setAttribute('src', 'http://test.api.weniv.co.kr/' + item.thumbnailImg)
+            productImg.setAttribute('src', 'http://test.api.weniv.co.kr/' + item.thumbnailImg)
 
-            productCard.appendChild(productimg)
+            productCard.appendChild(productImg)
             productCard.appendChild(productName)
             productCard.appendChild(productPrice)
 
