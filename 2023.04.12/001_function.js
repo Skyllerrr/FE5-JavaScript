@@ -13,6 +13,7 @@ function one() {
     console.log('hello')
     console.log('hello')
 }
+
 one()
 one()
 one()
