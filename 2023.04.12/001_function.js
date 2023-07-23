@@ -238,7 +238,7 @@ function 함수() {}
 
 // 4월 12일 코드
 // 1. object처럼 사용되는 함수의 특성
-function 함수(a, b) {
+function 함수1(a, b) {
     return a + b
 }
 
