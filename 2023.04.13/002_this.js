@@ -18,12 +18,12 @@ let myObj1 = {
         // this가 누구일까?
         // 찍어보면 됩니다. console.log
         // 1. func1
-        // 2. myObj
+        // 2. myObj1
         // 3. window
     }
 }
 
-myObj1.func1(); // myObj를 호출
+myObj1.func1(); // myObj1를 호출
 
 
 /////////////////////

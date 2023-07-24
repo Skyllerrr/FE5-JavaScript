@@ -245,11 +245,11 @@ function solution(my_string) {
 
 // 6번 문제
 // 링크 : https://jsalgo.co.kr/?page=2#
-'a10b9r1ce33uab8wc918v2cv11v9'.match(/[rev][0-9]/g) 
+'a10b9r1ce33uab8wc918v2cv11v9'.match(/[rev][0-9]/g)
 // ['r1', 'e3', 'v2', 'v1', 'v9']
 
 // 아래처럼 r, e, v 뒤에 숫자가 10이 있을 경우 오답
-'a10b9r10ce33uab8wc918v2cv11v9'.match(/[rev][0-9]/g) 
+'a10b9r10ce33uab8wc918v2cv11v9'.match(/[rev][0-9]/g)
 // ['r1', 'e3', 'v2', 'v1', 'v9']
 
 // 아래처럼 뽑으면 e가 33이 뽑히므로 오답
