@@ -56,11 +56,11 @@
         document.addEventListener('click', function (event) {
             // 화면 오른쪽을 눌렀을 경우
             if (window.innerWidth / 2 < event.clientX) {
-                currAngle += angle;
+                currAngle -= angle;
 
                 // 화면 왼쪽을 눌렀을 경우
             } else {
-                currAngle -= angle;
+                currAngle += angle;
             }
             center.style.transform = `translate(-50%, -50%) rotateY(${currAngle}deg)`;
         });
