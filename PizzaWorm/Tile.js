@@ -20,7 +20,7 @@ class Tile {
       });
   }
   // 타일의 충돌을 체크합니다.
-  collisionCheck(taget) {
-      return this.col === taget.col && this.row === taget.row;
+  collisionCheck(target) {
+      return this.col === target.col && this.row === target.row;
   }
 }
